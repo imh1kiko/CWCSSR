@@ -1,5 +1,4 @@
-# CWCSSR
-Also known as "Crappy Web CSS Rewrite". Don't even bother telling me the mistakes I made, lint errors etc. I'm fully aware of them, and in no mood to fix them. If it works for me, that's all good.
+# DeviantArt CSS
+DA's CSS is a trainwreck on it's own. Often you come across background elements nested inside themselves with the same goddamn background color. You disable one, and scratch your head why the fuck it ain't working, only to scour through elements to find least 2 more, that do the exact same thing.
 
-# Branches
-I'm throwing things into branches to keep things tidy. Never use master branch for anything.
+I ain't gonna tidy up this CSS or anything. I'm just plain brute-forcing my way through. Making edits on firefox, and copying changes over to script injector to test, then here to publish.

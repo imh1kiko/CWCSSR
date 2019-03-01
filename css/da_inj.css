@@ -1,0 +1,329 @@
+/*
+ * Author: Hiki
+ * Last Modified: 01-03-2019 22:54:40
+ */
+
+body,
+#output {
+    background-color: #1e1a27;
+}
+
+.mmhover.oh-hashover .oh-l,
+.mmhover2 .oh-l,
+.mmhover3 .oh-l,
+.oh-nohover .oh-l:hover,
+.oh-hasbutton .active,
+.oh-m:active {
+    background: var(--mid);
+}
+
+#output {
+    margin-top: 0 !important;
+}
+
+#browse-sidemenu .browse-facet.browse-facet-state .button.active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) inset, 0 2px 72px rgba(0, 0, 0, 0.1) inset, 0 -1px 1px rgba(0, 0, 0, 0.05) inset, 0 1px 0 rgba(180, 92, 219, 0.78);
+}
+
+#output>.browse-container.newbrowse .browse-left-bar .browse-left-bar-inner {
+    background-color: #221a36;
+}
+
+#browse-sidemenu .browse-facet.browse-facet-state .button.state-open {
+    background: #342554;
+}
+
+#browse-sidemenu .browse-facet.browse-facet-state .button {
+    border: 1px solid #1e1a27;
+}
+
+#navbar-menu {
+    background: #221a35;
+}
+
+#navbar-menu .navbar-menu-inner {
+    background: #221a35;
+}
+
+#navbar-menu .navbar-menu-item.active {
+    border-bottom: 4px solid #8628b0;
+}
+
+#overhead,
+#oh-mainmenu-cloned {
+    color: #1e1a27;
+}
+
+#overhead .oh-mmain,
+#overhead .oh-keep {
+    background: #342554;
+}
+
+#overhead td {
+    background: #342554;
+}
+
+#overhead #search7 input[name="q"] {
+    background: #1e1a27;
+    border: 1px solid #342554;
+}
+
+#oh-menu-submit>a>span {
+    background: #75418c;
+}
+
+body.with-apps #overhead #more7-main {
+    background: #1e1a27;
+}
+
+body.with-apps #oh-mlast {
+    background: #1e1a27;
+}
+
+body.with-apps .ohm-stickhelper {
+    background: #1e1a27;
+}
+
+body.with-apps #oh-mainmenu.da-menu {
+    border-bottom: 1px solid #342554;
+}
+
+#output>.browse-container.newbrowse .browse-left-bar {
+    border-right: 3px solid #342554;
+}
+
+#deviantart-logo .mark .wikistick {
+    fill: #9d05cc;
+}
+
+.oh-menu,
+#overhead-collect #lub,
+div.popup2.popup2-click-friends {
+    background: #343138;
+}
+
+#oh-menu-deviant,
+#oh-menu-split,
+#oh-menu-friends,
+#oh-menu-collect,
+#oh-menu-cart,
+#oh-menu-join,
+#oh-loginbutton,
+#overhead .oh-mc-split,
+#oh-menu-greeting {
+    border-bottom: 1px solid #3f3846;
+}
+
+#oh-menu-deviant {
+    border-left: 1px solid #403846;
+}
+
+#oh-menu-upgrade>a {
+    display: none;
+}
+
+#output>.browse-container.newbrowse .browse-left-bar {
+    border-right: 1px solid #342554;
+}
+
+#deviantart-logo .mark .wikistick {
+    fill: #8628b0 !important;
+}
+
+#browse-sidemenu ul li a.selected {
+    background: #e23939;
+}
+
+#browse-sidemenu .noncollapseHeader {
+    color: #d2d2d2;
+    font-size: 100%;
+}
+
+#browse-sidemenu ul li a {
+    color: #5981f5;
+}
+
+.browse-search-container {
+    background: #1e1a27;
+    border: 1px solid #1e1a27;
+}
+
+.oh-menu-list {
+    background: #342554;
+}
+
+span.icon {
+    color: #f05984;
+}
+
+/* +++ MERGE +++ */
+:root {
+    /* Highlights */
+    --ohl: #8628b0;
+    --btn: #75418c;
+    --active: #e23939;
+    --active2: #f05984;
+
+    /* Backgrounds */
+    --light: #342554;
+    --mid: #221a35;
+    --dark: #1e1a27;
+}
+
+#deviant {
+    background: var(--dark);
+}
+
+.catbar,
+.bubbletop {
+    background: var(--mid) url(/minish/gruzecontrol/bubbletop-gruze.gif) repeat-x bottom left;
+}
+
+.u.regular.username {
+    color: white;
+}
+
+body.gruze .bubbleview,
+.bubbleview,
+body.gruze .catbar {
+    background: transparent;
+}
+
+body:not(.mobile-devpage-uplift) h1 a,
+body:not(.mobile-devpage-uplift) .dcats a.h,
+a.u:not(.banned),
+body.gruze a.u:not(.banned),
+.mcb-title a:not(.external),
+.mcb-line a:not(.external),
+.mcb-body a:not(.external),
+.mcb-modhtml a:not(.external),
+.popup2-mcbox-comment a:not(.external):not(.thumb),
+.text a:not(.external) {
+    color: #b361d8 !important;
+}
+
+ul.iconset-gruser li.tab {
+    border: 1px dashed #8628b0;
+    background: #7d7492;
+}
+
+body.gruze a:not(:first-of-type) {
+    color: #e9e9e9;
+}
+
+body.gruze.catbar {
+    border-top: #8628b0;
+}
+
+li.tab:nth-child(1)>a:nth-child(1) {
+    background: #9f57ba;
+}
+
+body.gruze .catbar {
+    border-top-color: #75418c;
+}
+
+#deviant .blues-bar,
+#group .blues-bar {
+    background: #221a35;
+}
+
+.blues-bar {
+    border-top: 1px solid #75418c;
+}
+
+.blues-bar * {
+    color: white;
+}
+
+.blues-bar .blues-bar-ctrl {
+    border-bottom: 1px solid #75418c;
+}
+
+i.gr2,
+i.gr3,
+.gr-body,
+.gr-top {
+    border-color: #1e1a27 !important;
+    background: #29183c !important;
+}
+
+i.gr3 i,
+.gr-top .gr {
+    background: #9f57ba;
+}
+
+.gr-free .gr-top .gr {
+    border-color: transparent;
+}
+
+/* +++ MERGE +++ */
+
+.dev-page-view .dev-view-deviation {
+    background: var(--dark);
+}
+
+.with-apps .dev-page-container.minibrowse-container.bubbleview {
+    background: var(--mid);
+}
+
+.dev-page-view .dev-right-col-bg {
+    background: var(--light);
+}
+
+.dev-page-view #fave-btn-wrap #gmi-ResourceViewFavouriteButton {
+    color: #e6e6e6 !important;
+    background: var(--btn);
+    border: 1px solid var(--ohl);
+}
+
+.cc-time,
+.cc-time a,
+.cc-userdetails {
+    color: #d0dcd1;
+}
+
+.ccomment .ch-ctrl .ch-ctrl {
+    border: 1px solid var(--light);
+    background: var(--light);
+}
+
+.dev-page-view .dev-view-deviation {
+    background: var(--dark);
+}
+
+.with-apps .dev-page-container.minibrowse-container.bubbleview {
+    background: var(--mid);
+}
+
+.dev-page-view .dev-right-col-bg {
+    background: var(--light);
+}
+
+.dev-page-view #fave-btn-wrap #gmi-ResourceViewFavouriteButton {
+    color: #e6e6e6 !important;
+    background: var(--btn);
+    border: 1px solid var(--ohl);
+}
+
+body {
+    color: #f0f0f0;
+}
+
+:link,
+:visited {
+    color: #8b95ce;
+}
+
+.dev-page-container.bubbleview,
+body.fullview .dev-page-container.bubbleview,
+body.gruze .dev-page-container.bubbleview,
+body.deviant .dev-page-container.bubbleview {
+    background-color: var(--mid);
+}
+
+span.icon,
+a#friendslink,
+a#collectlink {
+    color: var(--active2) !important;
+}
