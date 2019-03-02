@@ -1,8 +1,3 @@
-/*
- * Author: Hiki
- * Last Modified: 01-03-2019 22:54:40
- */
-
 body,
 #output {
     background-color: #1e1a27;
@@ -205,6 +200,7 @@ body.gruze a.u:not(.banned),
 ul.iconset-gruser li.tab {
     border: 1px dashed #8628b0;
     background: #7d7492;
+    ;
 }
 
 body.gruze a:not(:first-of-type) {
@@ -326,4 +322,76 @@ span.icon,
 a#friendslink,
 a#collectlink {
     color: var(--active2) !important;
+}
+
+/* Some have strange box shadows set. Removing them here */
+.dev-page-view .dev-page-button,
+.dev-page-view .dev-page-button.disabled:hover,
+.dev-page-view #fave-btn-wrap #gmi-ResourceViewFavouriteButton,
+.dev-page-view .dev-meta-producttabs #print-button,
+.dev-page-view .dev-meta-producttabs #buy-tabs #fave-btn-wrap #gmi-ResourceViewFavouriteButton,
+.dev-page-view #fave-btn-wrap #favesnav li a.favesnav-downlink,
+.dev-page-view #fave-btn-wrap #favesnav li a.favesnav-downlink:hover,
+.dev-page-view #fave-btn-wrap #favesnav li:hover a.favesnav-downlink {
+    box-shadow: none;
+}
+
+.dev-page-view #fave-btn-wrap #favesnav li a.favesnav-downlink,
+.dev-page-view #fave-btn-wrap #favesnav li a.favesnav-downlink:hover,
+.dev-page-view #fave-btn-wrap #favesnav li:hover a.favesnav-downlink {
+    background: #613475;
+}
+
+#favesnav *,
+#favesnav li ul,
+#fave-btn-wrap #favesnav li:hover ul,
+#fave-btn-wrap #favesnav li ul.stick {
+    background: var(--mid);
+    /* Did not overwrite without, so forcing it. */
+    color: white !important;
+}
+
+#fave-btn-wrap #favesnav input.collection_name {
+    box-shadow: none;
+    border: 1px solid var(--ohl);
+    background: var(--dark);
+}
+
+.dev-page-view .dev-page-button,
+.dev-page-view .dev-page-button.disabled:hover,
+.dev-page-view #fave-btn-wrap #gmi-ResourceViewFavouriteButton,
+.dev-page-view .dev-meta-producttabs #print-button,
+.dev-page-view .dev-meta-producttabs #buy-tabs {
+    border: 1px solid var(--ohl);
+    background: var(--btn);
+}
+
+#gmi-ResourceViewShare {
+    display: none;
+}
+
+.cctextarea {
+    border: none;
+    background: var(--light);
+}
+
+.cctextarea textarea,
+.previewbox {
+    background: var(--light);
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+select {
+    background: var(--light);
+}
+
+body .cctextarea {
+    border: none;
+}
+
+body .cctextarea i.l,
+body .talk-post-reply i.l {
+    background: url(/minish/deviation/comment-arrow-form-uplift.png?3) no-repeat;
 }
