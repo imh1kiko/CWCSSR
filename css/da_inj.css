@@ -373,6 +373,7 @@ a#collectlink {
 .cctextarea {
     border: none;
     background: var(--light);
+    box-shadow: none;
 }
 
 .cctextarea textarea,
@@ -384,7 +385,7 @@ textarea,
 input[type="text"],
 input[type="password"],
 select {
-    background: var(--light);
+    background: var(--btn);
 }
 
 body .cctextarea {
@@ -394,4 +395,109 @@ body .cctextarea {
 body .cctextarea i.l,
 body .talk-post-reply i.l {
     background: url(https://cdn.jsdelivr.net/gh/imh1kiko/CWCSSR@DeviantArt/img/icon1.png) no-repeat;
+}
+
+.dev-page-view .dev-page-button,
+.dev-page-view .dev-page-button.disabled:hover,
+.dev-page-view #fave-btn-wrap #gmi-ResourceViewFavouriteButton,
+.dev-page-view .dev-meta-producttabs #print-button,
+.dev-page-view .dev-meta-producttabs #buy-tabs {
+    text-shadow: none;
+    color: #a9ffad;
+    font-weight: bolder;
+}
+
+.dev-page-view .dev-page-button span.text {
+    color: #e4e4e4;
+}
+
+.dev-page-view .dev-right-bar-title {
+    color: #fff;
+}
+
+.group_featured_list .not-in-group {
+    color: inherit;
+}
+
+.dev-page-view .dev-right-bar-content.dev-metainfo-content dt {
+    color: inherit;
+}
+
+.smbutton-textonly,
+.smbutton-textonly>span,
+.smbutton-textonly:hover,
+.smbutton-textonly:active,
+.smbutton-textonly:active>span {
+    color: #97d1fc;
+}
+
+div.deviation-mlt-preview div.more-from-collection-preview-row h4 a {
+    color: #f37289;
+}
+
+body .dev-page-view .dev-title-container a.dev-page-watch-button {
+    color: #a5f6a7;
+    background: var(--btn);
+    border: 1px solid var(--ohl);
+    text-shadow: none;
+    box-shadow: none;
+}
+
+.by {
+    color: white;
+}
+
+body:not(.mobile-devpage-uplift) .dev-page-view .dev-title-container h1 small a.username,
+body:not(.mobile-devpage-uplift) .dev-about-breadcrumb a {
+    color: #ff718a !important;
+}
+
+body .cctextarea {
+    box-shadow: none;
+}
+
+.pagination {
+    color: #e9e9e9;
+}
+
+.pagination ul.pages li a {
+    box-shadow: none;
+    color: #fff;
+    border: 1px solid var(--ohl);
+    background: #342554;
+}
+
+.pagination ul.pages li.dotdotdot a {
+    border: 1px solid var(--ohl);
+    background: var(--light);
+}
+
+.pagination ul.pages li.current a,
+.pagination ul.pages li.current a:hover {
+    background: transparent;
+    color: #fff;
+    border: 1px solid var(--active2);
+}
+
+.pagination ul.pages li.prev a.disabled,
+.pagination ul.pages li.prev a.disabled:hover {
+    background: var(--light);
+}
+
+.pagination ul.pages li.prev a.disabled,
+.pagination ul.pages li.prev a.disabled:hover,
+.pagination ul.pages li.next a.disabled,
+.pagination ul.pages li.next a.disabled:hover {
+    color: #fff;
+    border: 1px solid var(--ohl);
+}
+
+.pagination ul.pages li.prev a:hover,
+.pagination ul.pages li.next a:hover {
+    border: 1px solid var(--ohl);
+    color: #fff;
+}
+
+.pagination ul.pages li.next a {
+    background: var(--light);
 }
