@@ -200,7 +200,6 @@ body.gruze a.u:not(.banned),
 ul.iconset-gruser li.tab {
     border: 1px dashed #8628b0;
     background: #7d7492;
-    ;
 }
 
 body.gruze a:not(:first-of-type) {
