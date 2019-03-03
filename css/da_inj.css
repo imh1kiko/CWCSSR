@@ -801,3 +801,33 @@ ul.iconset-gruser li.active.profile:hover,
 .status-form textarea.writeranywhere {
     color: white;
 }
+
+.submit-help-bubble {
+    background: var(--mid);
+    color: #7ace5f;
+    border: 1px solid var(--ohl);
+}
+
+.submit-help-bubble::before {
+    background: var(--mid);
+}
+
+.mature-tag {
+    color: #a5aeb6;
+}
+
+.bubble-button .button-title {
+    color: #d8d8d8;
+}
+
+.bubble-button:hover .creamy-center {
+    background: -moz-linear-gradient(top, #8f37e2, #d01a6e);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.44);
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+select {
+    color: #898989;
+}
