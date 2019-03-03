@@ -1,3 +1,8 @@
+/*
+ * Author: Hiki
+ * Last Modified: 03-03-2019 22:35:36
+ */
+
 body,
 #output {
     background-color: #1e1a27;
@@ -198,8 +203,9 @@ body.gruze a.u:not(.banned),
 }
 
 ul.iconset-gruser li.tab {
-    border: 1px dashed #8628b0;
-    background: #7d7492;
+    border: 1px solid var(--btn);
+    background: var(--light);
+    ;
 }
 
 body.gruze a:not(:first-of-type) {
@@ -211,7 +217,7 @@ body.gruze.catbar {
 }
 
 li.tab:nth-child(1)>a:nth-child(1) {
-    background: #9f57ba;
+    background: var(--light);
 }
 
 body.gruze .catbar {
@@ -245,7 +251,7 @@ i.gr3,
 
 i.gr3 i,
 .gr-top .gr {
-    background: #9f57ba;
+    background: #461f6f;
 }
 
 .gr-free .gr-top .gr {
@@ -499,4 +505,299 @@ body .cctextarea {
 
 .pagination ul.pages li.next a {
     background: var(--light);
+}
+
+/* +++ Upload Page +++ */
+
+.with-apps.multisubmit #output>.submit-tabbar,
+.with-apps.multisubmit #output>.submit-tabbar>.submit-tabbar-overlay {
+    top: 0;
+}
+
+#output>.submit-tabbar {
+    background: var(--mid);
+}
+
+html body {
+    background: none !important;
+}
+
+body.no-overhead {
+    background: none;
+}
+
+html,
+body div#output,
+body div#output #dv7 {
+    background-color: none;
+}
+
+body.no-overhead #overhead {
+    background-color: #342554;
+}
+
+.ile-step-zero-notice {
+    color: white;
+}
+
+#dv7 {
+    background: none;
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+select {
+    background: none;
+}
+
+#ile-container,
+#autocomplete-placebo,
+#output #ile-contents .bubbleview {
+    background-color: #221a35;
+}
+
+#ile-contents input.text,
+#ile-contents textarea.text {
+    background: none;
+}
+
+#ile-contents .ile-description .ile-description-writer {
+    border: 1px solid #342554;
+    box-shadow: 0 0 3px 2px #342554 inset;
+    background: #1e1a27;
+}
+
+#ile-contents .ile-title input.ile-title-input.default-text,
+#ile-contents .ile-description textarea.ile-description-input.default-text,
+#ile-contents .ile-keywords input.ile-keywords-input.default-text.text.small {
+    background: #75418c57;
+}
+
+#ile-contents input.ile-title-input {
+    border: 1px solid #342554;
+    box-shadow: 0 0 3px 2px #342554 inset;
+    border-radius: 15px 15px 0 0;
+    padding-left: 20px;
+}
+
+.stash-upload-box {
+    box-shadow: none;
+    background: #1e1a27;
+    border: 1px solid #75418c;
+    color: #fff;
+}
+
+/* +++ Profile Page Continuation +++ */
+
+
+#deviant .blues-bar,
+#group .blues-bar {
+    background: #342554;
+}
+
+body.gruze .bubbleview,
+.bubbleview,
+body.gruze .catbar {
+    background: var(--mid);
+}
+
+i.gr3 i,
+.gr-top .gr {
+    background: #75418c;
+}
+
+i.gr2,
+i.gr3,
+.gr-body,
+.gr-top {
+    border-color: var(--btn) !important;
+}
+
+.bubbleview .catbar {
+    border-top: none;
+}
+
+i.gr3 i,
+.gr-top .gr {
+    border-left-color: var(--ohl);
+    border-right-color: var(--ohl);
+}
+
+.gr-top {
+    border: none;
+}
+
+i.gr2,
+i.gr3,
+.gr-body,
+.gr-top {
+    border-color: transparent;
+}
+
+textarea#commentbody {
+    background: var(--dark);
+    color: white;
+}
+
+div.h,
+div.hh,
+* html div.ieh {
+    margin-top: 5px;
+}
+
+body.gruze .catbar,
+body.gruze .catbar h1 {
+    color: #fcfcfc;
+}
+
+body.gruze .bubbleview h1,
+body.gruze .bubbleview h2,
+body.gruze .bubbleview h3,
+body.gruze .bubbleview h4,
+body.gruze .bubbleview h1 a,
+body.gruze .bubbleview h2 a,
+body.gruze .bubbleview h3 a,
+body.gruze .bubbleview h4 a {
+    color: #c6c6c6;
+}
+
+body.gruze a {
+    color: #b7b7b7;
+}
+
+body.gruze .bubbleview {
+    color: #dedede;
+}
+
+#aboutme-artist-info span {
+    color: #b4b4b4;
+}
+
+#aboutme .f {
+    color: #d7d7d7;
+}
+
+#dv7 ul.list li.a,
+body.gruze ul.list li.a,
+body.gruze div.gr-box div.gr-body table.grf tr:nth-child(2n) {
+    background: var(--dark);
+}
+
+.journal-green .gr-box {
+    border: 1px solid var(--light);
+    background: var(--light);
+}
+
+.journal-green .gr-top .gr h2 a {
+    color: #d7d7d7;
+}
+
+.journal-green .gr-box .gr1 {
+    background: transparent;
+}
+
+.journal-green .gr-box .gr2 {
+    background: transparent;
+}
+
+.status-form .status-entry {
+    background: var(--light);
+    border: 1px solid var(--ohl);
+}
+
+.status-form textarea.writeranywhere {
+    text-align: center;
+    border-radius: 5px;
+}
+
+.feed-action .feed-action-content .tt-a .tt-w,
+.feed-action .feed-action-content .tt-a a.thumb img,
+.feed-action .feed-action-content .tt-a a.thumb.ismature {
+    background: var(--mid);
+}
+
+.feed-action.feed-action-type-deviations .feed-action-content,
+.feed-action.feed-action-type-groupdeviations .feed-action-content,
+.feed-action.feed-action-type-journals .feed-action-content {
+    background: var(--dark);
+}
+
+.feed-action .feed-action-details {
+    background: var(--light);
+}
+
+.feed-action {
+    box-shadow: none;
+    background: var(--mid);
+    border: 1px solid var(--light);
+}
+
+.feed-action.feed-action-type-deviations .feed-action-deviation-details,
+.feed-action.feed-action-type-groupdeviations .feed-action-deviation-details,
+.feed-action.feed-action-type-journals .feed-action-deviation-details {
+    background: var(--light);
+}
+
+.feed-action.feed-action-type-deviations .feed-action-deviation-details .title,
+.feed-action.feed-action-type-groupdeviations .feed-action-deviation-details .title,
+.feed-action.feed-action-type-journals .feed-action-deviation-details .title {
+    color: #d5d5d5;
+}
+
+.feed-action.feed-action-type-deviations .feed-action-comments,
+.feed-action.feed-action-type-groupdeviations .feed-action-comments,
+.feed-action.feed-action-type-journals .feed-action-comments {
+    background: var(--mid);
+}
+
+.feed-action .feed-action-comments .ccomment-form .cctextarea {
+    background: var(--light);
+    border: 1px solid var(--dark);
+}
+
+.feed-action .feed-action-deviation-buttons>div.button span.icon {
+    background: var(--mid);
+}
+
+.feed-action .feed-action-deviation-buttons>div.button {
+    background: none;
+    border: 1px solid var(--active2);
+}
+
+.feed-action.feed-action-type-deviations span.shadow,
+.feed-action.feed-action-type-groupdeviations span.shadow {
+    background: var(--mid);
+}
+
+.gr-body .gr {
+    border-top-color: transparent;
+}
+
+.gr-body .gr {
+    border-top: none;
+}
+
+i.gr2,
+i.gr3,
+.gr-body,
+.gr-top {
+    background: #221a35 !important;
+    border-color: var(--light) !important;
+}
+
+i.gr1 {
+    background: var(--ohl);
+}
+
+ul.iconset-gruser li.active.profile,
+ul.iconset-gruser li.active.profile:hover,
+#group ul.iconset-gruser li.active,
+#group ul.iconset-gruser li.active:hover {
+    box-shadow: none;
+    border-bottom: 1px solid var(--active);
+}
+
+.status-form textarea.writeranywhere {
+    color: white;
 }
