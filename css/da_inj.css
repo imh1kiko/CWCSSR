@@ -1,6 +1,6 @@
 /*
  * Author: Hiki
- * Last Modified: 04-03-2019 02:07:58
+ * Last Modified: 04-03-2019 02:20:57
  */
 
 body,
@@ -859,4 +859,53 @@ div.gruz-badgeholder .gruz-morebadges {
 .gmbutton2,
 .gmbutton2 b {
     background: var(--light);
+}
+
+/* +++ Journal Page Start +++ */
+
+h1,
+h2 {
+    color: #e4e4e4;
+}
+
+.dev-page-view .dev-right-bar-content.dev-metainfo-content dd .extra {
+    color: #5ebafe;
+}
+
+.dev-page-view .dev-right-bar-content.dev-metainfo-content dd a {
+    color: #5ebafe;
+}
+
+div.deviation-mlt-preview .stream a.lit {
+    background: var(--mid);
+}
+
+.submit_to_groups_button>.submit_to_groups_link>a {
+    color: #f2f2f2;
+}
+
+div.tt-crop a.lit q {
+    color: white;
+}
+
+.dev-page-view .dev-metainfo-copy-control .embed-code {
+    box-shadow: none;
+    color: #ddd;
+    border: 1px solid var(--btn);
+    background: var(--mid);
+}
+
+#depths {
+    display: none;
+}
+
+.pagination ul.pages li.next a.disabled,
+.pagination ul.pages li.next a.disabled:hover {
+    background: var(--dark);
+}
+
+body a.gmbutton2,
+.gmbutton2,
+.gminlet {
+    color: #c8c8c8;
 }
