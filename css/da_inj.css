@@ -1,6 +1,6 @@
 /*
  * Author: Hiki
- * Last Modified: 04-03-2019 01:50:53
+ * Last Modified: 04-03-2019 02:07:58
  */
 
 body,
@@ -830,4 +830,33 @@ input[type="text"],
 input[type="password"],
 select {
     color: #898989;
+}
+
+body.gruze div.bubbleview a.a,
+body.gruze div.bubbleview div.alink a {
+    color: #dbdbdb;
+    background: #3e2365;
+    border-radius: 8px;
+}
+
+div.gruz-badgeholder .gruz-morebadges {
+    line-height: 7px;
+    padding-left: 10px;
+    visibility: visible;
+}
+
+.gmbutton2qn2r,
+.gmbutton2qn2r b {
+    background: #342554;
+}
+
+.aboutme-interests-values *,
+#aboutme-interests-button {
+    background: var(--light);
+    color: #d4d4d4;
+}
+
+.gmbutton2,
+.gmbutton2 b {
+    background: var(--light);
 }
